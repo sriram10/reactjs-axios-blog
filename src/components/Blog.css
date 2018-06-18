@@ -1,0 +1,18 @@
+.container {
+  vertical-align: top;
+}
+.post {
+  display: inline-block;
+  margin: 8px;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  box-shadow: 1px 2px 3px #dddddd;
+  width: 250px;
+  min-height: 100px;
+  vertical-align: top;
+}
+.post:hover {
+  cursor: pointer;
+  background-color: #f3f3f3;
+  box-shadow: 2px 3px 4px #cccccc;
+}
