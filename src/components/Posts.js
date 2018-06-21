@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Blog.css'
 import Post from './Post';
+import NewPost from './NewPost';
 
 class Posts extends Component {
 
@@ -17,6 +18,7 @@ class Posts extends Component {
     return (
       <div className='container'>
         <h2>All Posts</h2>
+        <NewPost />
         {allPosts}
       </div>
     )
