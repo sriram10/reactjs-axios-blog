@@ -1,5 +1,7 @@
 import axios from 'axios'
 
-export default axios.create({
+const ajaxObj = axios.create({
   baseURL: 'https://jsonplaceholder.typicode.com'
-})
+});
+
+export default ajaxObj;
